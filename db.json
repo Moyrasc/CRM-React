@@ -1,39 +1,56 @@
 {
-  "clients" : [
-          {
-              "id": 1,
-              "name": " Claudia",
-              "phone": 102013313,
-              "email": "claudia@gmail.com",
-              "company": "Nakama"
-          },
-          {
-              "id": 2,
-              "name":" Karly",
-              "phone": 138198313,
-              "email": "karly@gmail.com",
-              "company": "InkZone"
-          },
-          {
-              "id": 3,
-              "name": "Andrés",
-              "phone": 31983913,
-              "email": "Andrés@gmail.com",
-              "company": "Argos"
-          },
-          {
-              "id": 4,
-              "name": "Carmen",
-              "phone": 319381983,
-              "email": "carmen@gmail.com",
-              "company": "Kodu"
-          },
-          {
-              "id": 5,
-              "name": "Raquel",
-              "phone": 1398198938,
-              "email": "raquel@gmail.com",
-              "company": "Goutside"
-          }
-      ]
-  }
+  "clients": [
+    {
+      "name": " Clau",
+      "company": "Nakama",
+      "email": "claudia@gmail.com",
+      "phone": "102013313",
+      "notes": "Nueva nota de prueba",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": " Karly",
+      "phone": 138198313,
+      "email": "karly@gmail.com",
+      "company": "InkZone"
+    },
+    {
+      "id": 3,
+      "name": "Andrés",
+      "phone": 31983913,
+      "email": "Andrés@gmail.com",
+      "company": "Argos"
+    },
+    {
+      "id": 4,
+      "name": "Carmen",
+      "phone": 319381983,
+      "email": "carmen@gmail.com",
+      "company": "Kodu"
+    },
+    {
+      "id": 5,
+      "name": "Raquel",
+      "phone": 1398198938,
+      "email": "raquel@gmail.com",
+      "company": "Goutside"
+    },
+    {
+      "name": "Jesús",
+      "company": "autónomo ",
+      "email": "we2@gmail.com",
+      "phone": "666666666",
+      "notes": "Quiere un ecommerce",
+      "id": 6
+    },
+    {
+      "name": "Noe",
+      "company": "autónomo ",
+      "email": "noe@gmail.com",
+      "phone": "666666666",
+      "notes": "Quiere un blog",
+      "id": 7
+    }
+  ]
+}

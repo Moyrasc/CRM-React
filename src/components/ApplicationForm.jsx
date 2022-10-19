@@ -11,7 +11,8 @@ const ApplicationForm = ({client}) => {
                     type="text"
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Nombre del Cliente"
-                    name="nombre"
+                    name="name"
+                    defaultValue={client?.name}
                 />
             </div>
             <div className="mb-4">
@@ -25,6 +26,7 @@ const ApplicationForm = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Empresa del Cliente"
                     name="company"
+                    defaultValue={client?.company}
                 />
             </div>
 
@@ -39,6 +41,7 @@ const ApplicationForm = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Email del Cliente"
                     name="email"
+                    defaultValue={client?.email}
                 />
             </div>
 
@@ -53,6 +56,7 @@ const ApplicationForm = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Teléfono del Cliente"
                     name="phone"
+                    defaultValue={client?.phone}
                 />
             </div>
 
@@ -68,10 +72,11 @@ const ApplicationForm = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50 h-40 align-self"
                     placeholder="Notas del Cliente"
                     name="notes"
+                    defaultValue={client?.notes}
+                    
                 />
             </div>
         </>
     )
 }
-
 export default ApplicationForm
