@@ -11,7 +11,7 @@ const ApplicationForm = ({client}) => {
                     type="text"
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Nombre del Cliente"
-                    name="nombre"
+                    name="name"
                 />
             </div>
             <div className="mb-4">
