@@ -1,11 +1,12 @@
 {
   "clients": [
     {
-      "id": 1,
-      "name": " Claudia",
-      "phone": 102013313,
+      "name": " Clau",
+      "company": "Nakama",
       "email": "claudia@gmail.com",
-      "company": "Nakama"
+      "phone": "102013313",
+      "notes": "Nueva nota de prueba",
+      "id": 1
     },
     {
       "id": 2,

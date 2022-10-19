@@ -25,3 +25,19 @@ export async function postClient (datos) {
     }
 }
 
+export async function updateClient (id, datos){
+
+    try {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/${id}`, {
+            method: 'PUT',
+            body:JSON.stringify(datos),
+            headers:{
+                'Content-Type': 'application/json'
+            }
+        })
+        await response.json()
+    } catch (error) {
+        console.log(error)
+    }
+
+}
