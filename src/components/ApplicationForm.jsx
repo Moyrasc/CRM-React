@@ -79,5 +79,4 @@ const ApplicationForm = ({client}) => {
         </>
     )
 }
-
 export default ApplicationForm
