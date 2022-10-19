@@ -1,4 +1,4 @@
-const Form = ({client}) => {
+const ApplicationForm = ({client}) => {
     return (
         <>
             <div className="mb-4">
@@ -74,4 +74,4 @@ const Form = ({client}) => {
     )
 }
 
-export default Form
+export default ApplicationForm
