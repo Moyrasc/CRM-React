@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 
-const Layaout = () => {
+const Layout = () => {
     const location = useLocation();
 
     return (
@@ -34,4 +34,4 @@ const Layaout = () => {
         </div>
     );
 };
-export default Layaout;
+export default Layout;
