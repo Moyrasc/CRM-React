@@ -1,6 +1,7 @@
 import { useNavigate, Form, useActionData } from "react-router-dom";
 import ApplicationForm from "../components/ApplicationForm";
 import Error from "../components/Error";
+import { postClient } from "../data/clients";
 
 // el request puede tardar en procesar los datos por eso la función es asíncrona.
 export async function action ({request}){
@@ -24,6 +25,8 @@ export async function action ({request}){
     if(Object.keys(errors).length){
         return errors
     }
+
+    postClient(datos)
 }
 
 const NewClient = () => {
