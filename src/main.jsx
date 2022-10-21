@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Layaout from './components/Layout'
+// renombramos cada action y loader para que no genere conflictos entre los diferentes componentes
 import NewClient, {action as newClientAction} from './pages/NewClient'
 import Index, {loader as clientsLoader} from './pages/Index'
 import ErrorPage from './components/ErrorPage'
 import EditClient, {loader as editClientLoader, action as editClientAction} from './pages/EditClient'
 import { action as deleteClientAction} from './components/Client'
 
+// Creación de las rutas del proyecto 
 const router = createBrowserRouter([
   {
     path: '/',
